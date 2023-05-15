@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'main',
-    "corsheaders",
+    "corsheaders", # django-cors-headers для отправки запросов
 ]
 
 MIDDLEWARE = [
